@@ -1,0 +1,30 @@
+@media only screen and (max-width: 767px) {
+  .select-small-container {
+    margin: 4px;
+    min-width: 100px;
+  }
+  
+  .select-small {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
+
+/* Styles for desktop view (768px width and above) */
+@media only screen and (min-width: 768px) {
+  .select-small-container {
+    margin: 8px;
+    min-width: 120px;
+  }
+  
+  .select-small {
+    padding: 8px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
